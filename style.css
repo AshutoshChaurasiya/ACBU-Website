@@ -1,0 +1,394 @@
+/* root */
+:root {
+  --primary-color: #a4602e;
+  --secondary-color: #eddfd5;
+  --color-text-primary: #834d25;
+  --color-white: #fff;
+}
+
+/* utilites class */
+.lightColor {
+  color: #999;
+}
+
+.colorPrimary {
+  color: #a4602e;
+}
+
+/*navbar*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  scroll-behavior: calc(50px);
+}
+
+.navbar {
+  background-color: #a4602e;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.navbar-brand img {
+  width: auto;
+    height: 65px;
+    padding: 10px 0px 10px 52px;
+  /* height: 60px;
+  padding-left: 30px; */
+}
+
+.nav-link {
+  color: aliceblue !important;
+  padding: 0;
+}
+
+.navbar-nav li {
+  padding: 0 15px;
+}
+
+.navbar-toggler-icon {
+  font-size: 25px !important;
+  outline: none !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  color: #fff;
+}
+
+h2#aboutUs-Text{
+  font-weight: 600;
+  font-size: 50px;
+}
+h1#contact-us{
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left!important;
+}
+h2#Aboutus{
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left!important;
+  padding-left: 50px;
+}
+
+h3#industryServed{
+  font-weight: 600;
+  font-size: 40px;
+}
+
+/*end of navbar*/
+
+/*body image*/
+#banner{
+  position: relative;
+}
+
+.text-block {
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: brown;
+  padding:  80px 0px 0px 200px; 
+}
+
+.Brand-text-h1{
+  font-size: 45px;
+  padding: 0px 0px 0px 30px;
+}
+
+.Brand-text{
+  font-size: 60px;
+  padding: 0px 0px 10px 30px;
+}
+
+
+#btnbtn {
+  background-color: brown;
+  color: white;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.hover-text{
+font-weight: 800;
+}
+.hover-text:hover {
+  background-color: #FFF;
+
+}
+
+#yellow-text {
+  font-size: 25px;
+}
+
+/*end of body image*/
+
+/* Welcome notes Design start */
+
+.wlcmHeight {
+  height: 170px;
+  padding: 0 25px;
+}
+
+.cardImg {
+  margin-top: 20px;
+  max-width: 350px;
+  border-radius: 15px;
+  box-shadow: -20px 25px 10px -3px rgba(94, 128, 77, 0.68);
+}
+.cardImg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.welcome ul {
+  color: #a4602e;
+}
+
+.welcome ul h5 {
+  color: #222;
+}
+
+.welcome ul p {
+  font-size: 18px;
+}
+
+/* Welcome notes Design end */
+
+/* About Us Design start*/
+
+#aboutUs .content h2 {
+  color: var(--primary-color);
+}
+
+.readBtn {
+  background-color: var(--primary-color) !important;
+  color: var(--color-white) !important;
+}
+
+.readBtn:hover {
+  background-color: var(--color-text-primary) !important;
+}
+
+/* About Us Design end*/
+
+/* service design start */
+.serviceIcon {
+  width: 120px;
+  /* border: 2px solid red; */
+}
+.serviceIcon i{
+  font-size: 50px;
+  color: var(--primary-color);
+}
+/* service design end */
+
+/* Contact Us Desgin Start */
+#contactUs .info a{
+  color: #222;
+  text-decoration: none;
+}
+
+#contactUs .info a:hover{
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+/* Contact Us Desgin end */
+
+/* Footer Design */
+footer {
+  background-color: var(--color-text-primary) !important;
+}
+
+footer h2 {
+  color: var(--color-white);
+}
+
+footer .about p {
+  color: var(--secondary-color);
+  word-wrap: break-word;
+  text-align: left;
+  padding-left: 52px;
+}
+
+footer .about button a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.follow ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+  height: 50px;
+}
+
+
+.follow ul li a {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--color-white);
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.follow ul li a:hover {
+  background-color: var(--color-text-primary);
+}
+
+footer hr {
+  border-bottom: 3px dashed var(--color-white);
+}
+
+footer .copyright {
+  color: var(--secondary-color);
+}
+
+.copyright a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.copyright a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+/* pop window design start*/
+#whatsapp .box {
+  position: fixed;
+  bottom: 15%;
+  right: 1.5%;
+  z-index: 999;
+}
+
+#whatsapp .box a {
+  width: 46px;
+  height: 46px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* pop window design end */
+
+ /* viber pop window design start
+#viber .box {
+  position: fixed;
+  bottom: 25%;
+  right: 1.5%;
+  z-index: 999;
+}
+
+#viber .box a {
+  width: 46px;
+  height: 46px;
+  background-color: #1e3050;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ viber pop window design end */
+
+/* Top Arrow popup window design start */
+.arrowBox{
+  width: 45px;
+  height: 45px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5%;
+  right: 1.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: var(--color-white);
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.arrowBox:hover{
+  background-color: var(--color-text-primary);
+}
+
+/* Top Arrow popup window design end */
+
+/* Responsive Design start */
+@media only screen and (max-width: 600px) {
+  .navbar-brand img {
+    width: auto;
+    height: 55px;
+    padding: 10px 0px 10px 0px;
+  }
+
+  text-block {
+    padding: 50px 0px 0px 175px;
+  }
+  .Brand-text{
+    font-size: 20px;
+    padding: 0px 0px 0px 10px
+  }
+  .Brand-text-h1{
+    padding: 0px 0px 0px 10px
+  }
+  #banner .text-block{
+    left: 0%;
+    top: 20%;
+  }
+  img.d-block.w-100{
+    height: fit-content;
+  }
+  #banner .text-block h3{
+    font-size: 18px;
+  }
+  #banner .text-block h1{
+    font-size: 22px;
+  }
+  #btnbtn {
+    background-color: brown;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+p#Aboutus{
+  padding-left: 0px!important;
+}
+  
+
+h2#Aboutus {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left!important;
+  padding-left: 0px!important;}
+
+}
+/* Responsive Design end */
