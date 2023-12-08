@@ -21,6 +21,11 @@
   padding: 0;
 }
 
+.navbar-collapse {
+  position: relative;
+  z-index: 1;
+}
+
 body {
   font-family: sans-serif;
   scroll-behavior: calc(50px);
